@@ -39,7 +39,7 @@ def calc_fund_factor(fac, weight, name):
     fac_pt = (fac * weight1).sum(axis=1) # 计算调整后的因子组合的加权总和。
     fac_pt = fac_pt[weight1.sum(axis=1) > 0] # 移除权重为 0 的行。
     fac_pt.name = name # 为结果 Series 设置名称为传入的 name。
-    return fac_pt
+    return fac_pt 
 
 
 def update_factor_basic(unit_id_list, begin_date, end_date):
