@@ -57,7 +57,6 @@ FACTOR_MAP = {
         lambda unit_id_list, begin_date, end_date: factor.update_factor_barra_cne5(unit_id_list, begin_date, end_date),
 }
 
-# TODO: 由于目前放给权益使用，暂写死权限，后续要调整
 USER_CODE = 'shawn'
 
 
